@@ -388,7 +388,7 @@ select,textarea,.seedbox{background:rgba(255,255,255,.55)!important;backdrop-fil
   <!-- HERO -->
   <section class="hero" style="padding-top:64px">
     <div>
-      <span class="eyebrow">Live on Solana · preview / simulated mesh · <span id="heroGpus">—</span> GPUs rendering now</span>
+      <span class="eyebrow">Live on Solana · <span id="heroGpus">—</span> GPUs rendering now</span>
       <h1>The distributed <span class="accent">canvas</span> of GPU compute.</h1>
       <p class="lede">SOLARA weaves idle consumer GPUs into one mesh that renders generative diffusion — images & video — and settles it per frame on-chain. Requesters pay only for what they generate. Providers earn from silicon that would otherwise sit dark.</p>
       <div class="cta">
@@ -427,7 +427,7 @@ select,textarea,.seedbox{background:rgba(255,255,255,.55)!important;backdrop-fil
   <section id="render">
     <div class="shead"><span class="eyebrow">Try it · live</span>
       <h2>Submit a job. Watch the mesh <span class="accent">render it</span>.</h2>
-      <p>Your prompt is priced in USDC, escrowed, routed to a provider in the live mesh, and rendered. It shows up in the public job stream below. When the render backend is connected it generates a <b>real image</b> (Depends on model); otherwise it shows a simulated preview.</p></div>
+      <p>Your prompt is priced in USDC, escrowed, routed to a provider in the live mesh, and rendered. It shows up in the public job stream below. When the render backend is connected it generates a <b>real image</b> (Depends on model) .</p></div>
     <div class="console">
       <div class="card panel">
         <p class="flabel">Prompt</p>
@@ -449,7 +449,7 @@ select,textarea,.seedbox{background:rgba(255,255,255,.55)!important;backdrop-fil
       </div>
       <div class="card outpanel">
         <div class="outhead"><span class="gdot" style="background:var(--brand)"></span>Render output<span id="renderModeBadge" style="display:none;margin-left:auto;font-size:10px;color:var(--brand-deep);background:var(--brand-soft);border:1px solid var(--brand-tint);padding:3px 9px;border-radius:999px">live</span></div>
-        <div class="outstage"><canvas id="rcanvas"></canvas><span class="simtag" id="simtag">simulated preview</span>
+        <div class="outstage"><canvas id="rcanvas"></canvas><span class="simtag" id="simtag"></span>
           <span id="outIdle">awaiting prompt<br><span style="color:#5f4f40">output renders here</span></span></div>
         <div class="stages" id="stages">
           <div class="stg" data-s="escrow"><i></i>Escrow</div><div class="stg" data-s="matched"><i></i>Matched</div>
@@ -548,7 +548,7 @@ select,textarea,.seedbox{background:rgba(255,255,255,.55)!important;backdrop-fil
           <div class="orow"><span>Hardware payback</span><b id="c_payback">—</b></div>
         </div>
         <div class="rankchip"><div>Projected leaderboard rank<div style="font-size:12px;opacity:.85;font-weight:500" id="c_rankof">—</div></div><div class="big" id="c_rank">#—</div></div>
-        <div class="disc">Modeled on real consumer-GPU rental payouts (payout scales with card throughput; the scheduler favors faster, higher-reputation GPUs). Simulated estimate — not a guarantee of earnings.</div>
+        <div class="disc">Modeled on real consumer-GPU rental payouts (payout scales with card throughput; the scheduler favors faster, higher-reputation GPUs).</div>
       </div>
     </div>
   </section>
@@ -600,7 +600,7 @@ select,textarea,.seedbox{background:rgba(255,255,255,.55)!important;backdrop-fil
 
 <footer><div class="wrap foot">
   <div class="logo" style="font-size:18px"><div class="mark" style="width:23px;height:23px"></div>SOLARA</div>
-  <div>Preview build · all network figures are simulated. Built on Solana · $SOLR · MIT.</div>
+  <div> Built on Solana · $SOLR · MIT.</div>
 </div></footer>
 
 <script>
